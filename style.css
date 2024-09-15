@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #104f68;
+}
+.main{
+    background: #fff;
+    padding: 30px;
+    margin: 100px auto 0;
+    width: 85%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.main h1{
+     color: #104f68;
+     font-weight: 600;
+     border-bottom: 1px solid #333;
+     padding-bottom: 30px; 
+     font-size: 30px;
+}
+.quiz{
+padd 
+}

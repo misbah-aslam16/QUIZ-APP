@@ -22,5 +22,35 @@ body{
      font-size: 30px;
 }
 .quiz{
-padd 
+     padding: 20px 0; 
+}
+.quiz h2{
+    font-weight: 600;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #222;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+   background: #9b9898;
+   color: #fff;
+}
+#next{
+    background: #104f68;
+    color: #fff;
+    margin: 20px auto 0;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    display: none;
 }

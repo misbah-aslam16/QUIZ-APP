@@ -4,20 +4,22 @@
     box-sizing: border-box;
 }
 body{
-    background: #104f68;
+    background: #557b8a;
 }
 .main{
     background: #fff;
     padding: 30px;
     margin: 100px auto 0;
-    width: 85%;
+    width: 70%;
     max-width: 600px;
     border-radius: 10px;
+    
 }
 .main h1{
-     color: #104f68;
-     font-weight: 600;
-     border-bottom: 1px solid #333;
+     color: #4e7a8b;
+     font-weight: 800;
+     font-size: large;
+     border-bottom: 1px solid #4e7a8b;
      padding-bottom: 30px; 
      font-size: 30px;
 }
@@ -26,6 +28,7 @@ body{
 }
 .quiz h2{
     font-weight: 600;
+    margin-bottom: 10px;
 }
 .btn{
     background: #fff;
@@ -33,15 +36,18 @@ body{
     font-weight: 500;
     width: 100%;
     padding: 10px;
-    border: 1px solid #222;
+    border: 1px solid #4e7a8b;
     margin: 10px 0;
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
    background: #9b9898;
    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
 }
 #next{
     background: #104f68;
@@ -53,4 +59,11 @@ body{
     padding: 10px;
     width: 150px;
     display: none;
+}
+
+.correct{
+    background: green;
+}
+.incorrect{
+    background: red;
 }

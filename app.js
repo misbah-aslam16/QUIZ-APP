@@ -8,114 +8,114 @@ var questions = [
             { text: "Bear", correct: false }
         ]
     },
-    // {
-    //     question: "How many continents are there in the world?",
-    //     answers: [
-    //         { text: "5", correct: false },
-    //         { text: "6", correct: false },
-    //         { text: "7", correct: true },
-    //         { text: "8", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "How many colors are there in a rainbow?",
-    //     answers: [
-    //         { text: "5", correct: false },
-    //         { text: "7", correct: true },
-    //         { text: "6", correct: false },
-    //         { text: "8", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "Which is the largest planet in our solar system?",
-    //     answers: [
-    //         { text: "Earth", correct: false },
-    //         { text: "Jupiter", correct: true },
-    //         { text: "Saturn", correct: false },
-    //         { text: "Mars", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "What is the primary color of a banana?",
-    //     answers: [
-    //         { text: "Green", correct: false },
-    //         { text: "Yellow", correct: true },
-    //         { text: "Red", correct: false },
-    //         { text: "Blue", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "Which country is famous for the Eiffel Tower?",
-    //     answers: [
-    //         { text: "Spain", correct: false },
-    //         { text: "Italy", correct: false },
-    //         { text: "France", correct: true },
-    //         { text: "Germany", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "What is the fastest land animal?",
-    //     answers: [
-    //         { text: "Cheetah", correct: true },
-    //         { text: "Lion", correct: false },
-    //         { text: "Horse", correct: false },
-    //         { text: "Kangaroo", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "What is 2 + 2?",
-    //     answers: [
-    //         { text: "3", correct: false },
-    //         { text: "4", correct: true },
-    //         { text: "5", correct: false },
-    //         { text: "6", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "Which shape has three sides?",
-    //     answers: [
-    //         { text: "Circle", correct: false },
-    //         { text: "Square", correct: false },
-    //         { text: "Triangle", correct: true },
-    //         { text: "Pentagon", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "Which ocean is the largest?",
-    //     answers: [
-    //         { text: "Atlantic", correct: false },
-    //         { text: "Indian", correct: false },
-    //         { text: "Pacific", correct: true },
-    //         { text: "Arctic", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "Which animal is the tallest in the world?",
-    //     answers: [
-    //         { text: "Elephant", correct: false },
-    //         { text: "Giraffe", correct: true },
-    //         { text: "Kangaroo", correct: false },
-    //         { text: "Lion", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "What is the freezing point of water?",
-    //     answers: [
-    //         { text: "0°C", correct: true },
-    //         { text: "100°C", correct: false },
-    //         { text: "-10°C", correct: false },
-    //         { text: "50°C", correct: false }
-    //     ]
-    // },
-    // {
-    //     question: "How many hours are there in a day?",
-    //     answers: [
-    //         { text: "24", correct: true },
-    //         { text: "12", correct: false },
-    //         { text: "48", correct: false },
-    //         { text: "36", correct: false }
-    //     ]
-    // },
+    {
+        question: "How many continents are there in the world?",
+        answers: [
+            { text: "5", correct: false },
+            { text: "6", correct: false },
+            { text: "7", correct: true },
+            { text: "8", correct: false }
+        ]
+    },
+    {
+        question: "How many colors are there in a rainbow?",
+        answers: [
+            { text: "5", correct: false },
+            { text: "7", correct: true },
+            { text: "6", correct: false },
+            { text: "8", correct: false }
+        ]
+    },
+    {
+        question: "Which is the largest planet in our solar system?",
+        answers: [
+            { text: "Earth", correct: false },
+            { text: "Jupiter", correct: true },
+            { text: "Saturn", correct: false },
+            { text: "Mars", correct: false }
+        ]
+    },
+    {
+        question: "What is the primary color of a banana?",
+        answers: [
+            { text: "Green", correct: false },
+            { text: "Yellow", correct: true },
+            { text: "Red", correct: false },
+            { text: "Blue", correct: false }
+        ]
+    },
+    {
+        question: "Which country is famous for the Eiffel Tower?",
+        answers: [
+            { text: "Spain", correct: false },
+            { text: "Italy", correct: false },
+            { text: "France", correct: true },
+            { text: "Germany", correct: false }
+        ]
+    },
+    {
+        question: "What is the fastest land animal?",
+        answers: [
+            { text: "Cheetah", correct: true },
+            { text: "Lion", correct: false },
+            { text: "Horse", correct: false },
+            { text: "Kangaroo", correct: false }
+        ]
+    },
+    {
+        question: "What is 2 + 2?",
+        answers: [
+            { text: "3", correct: false },
+            { text: "4", correct: true },
+            { text: "5", correct: false },
+            { text: "6", correct: false }
+        ]
+    },
+    {
+        question: "Which shape has three sides?",
+        answers: [
+            { text: "Circle", correct: false },
+            { text: "Square", correct: false },
+            { text: "Triangle", correct: true },
+            { text: "Pentagon", correct: false }
+        ]
+    },
+    {
+        question: "Which ocean is the largest?",
+        answers: [
+            { text: "Atlantic", correct: false },
+            { text: "Indian", correct: false },
+            { text: "Pacific", correct: true },
+            { text: "Arctic", correct: false }
+        ]
+    },
+    {
+        question: "Which animal is the tallest in the world?",
+        answers: [
+            { text: "Elephant", correct: false },
+            { text: "Giraffe", correct: true },
+            { text: "Kangaroo", correct: false },
+            { text: "Lion", correct: false }
+        ]
+    },
+    {
+        question: "What is the freezing point of water?",
+        answers: [
+            { text: "0°C", correct: true },
+            { text: "100°C", correct: false },
+            { text: "-10°C", correct: false },
+            { text: "50°C", correct: false }
+        ]
+    },
+    {
+        question: "How many hours are there in a day?",
+        answers: [
+            { text: "24", correct: true },
+            { text: "12", correct: false },
+            { text: "48", correct: false },
+            { text: "36", correct: false }
+        ]
+    },
     {
         question: "What is the largest organ in the human body?",
         answers: [

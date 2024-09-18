@@ -22,6 +22,10 @@ body{
      border-bottom: 1px solid #4e7a8b;
      padding-bottom: 30px; 
      font-size: 30px;
+     text-align: center;
+}
+.img{
+    margin: 0px 50px 20px 50px;
 }
 .quiz{
      padding: 20px 0; 
@@ -48,6 +52,23 @@ body{
 }
 .btn:disabled{
     cursor: no-drop;
+}
+.start{
+    background: #26708d;
+    color: #fff;
+    margin: 15px auto;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    height: 50px;
+    font-size: larger;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
 }
 #next{
     background: #104f68;
